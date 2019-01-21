@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*HEADER*/
+.header {
+  background-color: #282c34;
+  padding: 3% 0;
+}
+
+.hdt h1 {
+  font-family: "courier";
+  color: whitesmoke;
+}
+
+/*CENTRO*/
+.sect {
+  background-color: #fc8a7f;
+}
+
+/*WHALE SIDE*/
+
+.colwhale {
+  background-color: #fc8a7f;
+}
+
+@media only screen and (max-width: 576px) {
+  .colwhale {
+    height: 60%;
+  }
+}
+
+/* TEXT SIDE*/
+
+/*TITLE TEXT*/
+.rowtitle {
+  padding: 7% 0;
+}
+
+.coltitle h2 {
+  font-family: "courier";
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+/*FORM*/
+
+.rowform {
+  padding: 7% 1%;
+}
+
+.rowcol {
+  height: 2em;
+}
+
+.rowcol input {
+  border-radius: 5px;
+  width: 90%;
+  height: 100%;
+}
+
+/*BUTTON*/
+
+.buttrans {
+  padding: 3%;
+  color: whitesmoke;
+  background-color: #282c34;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.butagain {
+  display: none;
+  padding: 3%;
+  color: whitesmoke;
+  background-color: #282c34;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: #282c34;
+  padding: 3% 0;
+}
+
+.fdt p {
+  color: whitesmoke;
+}
